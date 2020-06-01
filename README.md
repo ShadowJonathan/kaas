@@ -16,3 +16,5 @@ Provide mission-agnostic functions/features that can serve:
 - professional usecases (commercial & internal)
 - hobbyist collaberative usecases (collaberative clustering, providing compute resources from a local homelab cluster to a wider community, etc.)
 - conventional abstract usecases (seperating a "personal" and "work" kubernetes cluster while using the same hardware)
+
+Provide a structure layer that can dynamically lease and release clusters (as they get provisioned or (taken) down) while still maintaining high availibility / redundancy for many tenants; divorce the resource owner and it's user even further.
